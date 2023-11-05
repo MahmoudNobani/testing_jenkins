@@ -1,0 +1,25 @@
+pipline {
+  
+  agent any
+
+  stages {
+    
+    stage("build"){
+      steps {
+        echp "this is building step"
+      }
+    }
+    stage("test"){
+      steps {
+        echp "this is testing step"
+      }
+    }
+    stage("deploy"){
+      steps {
+        echp "this is deploying step"
+      }
+    }
+  }
+}
+    
+      
